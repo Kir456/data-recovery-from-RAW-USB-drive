@@ -1,3 +1,5 @@
+# Development is in progress(финальная версия еще не представлена)
+
 # TurboRAW Carving Recovery Utility
 
 **TurboRAW Carver** — это высокопроизводительная утилита для восстановления удаленных и поврежденных файлов напрямую с физических носителей (RAW Data Recovery / File Carving) в среде Windows.
