@@ -22,7 +22,6 @@ FileSignature signatures[] = {
 };
 int sigCount = sizeof(signatures) / sizeof(FileSignature);
 
-// Безопасное чтение с диска
 BOOL ReadDiskSafe(HANDLE hDisk, unsigned long long offset, void* buffer, DWORD size) {
     DWORD SECTOR = 4096;
     unsigned long long alignedOffset = (offset / SECTOR) * SECTOR;
